@@ -70,8 +70,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: 'gtw';
-  src: url(fonts/gt-walsheim-web.eot);
-  src: url("fonts/gt-walsheim-web.eot?#iefix") format("embedded-opentype"), url("fonts/gt-walsheim-web.woff") format("woff"), url("fonts/gt-walsheim-web.ttf") format("truetype"), url("fonts/gt-walsheim-web.svg#svgFontName") format("svg");
+  src: url(fonts/gtw.eot);
+  src: url("fonts/gtw.eot?#iefix") format("embedded-opentype"), url("fonts/gtw.woff") format("woff"), url("fonts/gtw.ttf") format("truetype"), url("fonts/gtw.svg#svgFontName") format("svg");
   /* Ältere iOS-Geräte */
 }
 /* line 18, ../sass/screen.scss */

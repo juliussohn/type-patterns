@@ -8,11 +8,11 @@
 
 @font-face {
    font-family: 'gtw';
-   src: url( fonts/gt-walsheim-web.eot);
-   src: url('fonts/gt-walsheim-web.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
-      url('fonts/gt-walsheim-web.woff') format('woff'),             /* Moderne Browser */
-      url('fonts/gt-walsheim-web.ttf') format('truetype'),     /* Safari, Android, iOS */
-      url('fonts/gt-walsheim-web.svg#svgFontName') format('svg'); /* Ältere iOS-Geräte */
+   src: url( fonts/gtw.eot);
+   src: url('fonts/gtw.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+      url('fonts/gtw.woff') format('woff'),             /* Moderne Browser */
+      url('fonts/gtw.ttf') format('truetype'),     /* Safari, Android, iOS */
+      url('fonts/gtw.svg#svgFontName') format('svg'); /* Ältere iOS-Geräte */
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     padding: 0;
     padding-top: 30px;
 }
-
+ 
 #wrapper {
     width: 1084px;
     margin: 0 auto;
