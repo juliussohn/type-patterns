@@ -5,8 +5,18 @@
 
 @import "compass/reset";
 
+
+@font-face {
+   font-family: 'gtw';
+   src: url( fonts/gt-walsheim-web.eot);
+   src: url('fonts/gt-walsheim-web.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+      url('fonts/gt-walsheim-web.woff') format('woff'),             /* Moderne Browser */
+      url('fonts/gt-walsheim-web.ttf') format('truetype'),     /* Safari, Android, iOS */
+      url('fonts/gt-walsheim-web.svg#svgFontName') format('svg'); /* Ältere iOS-Geräte */
+}
+
 body {
-    font-family: "GT Walsheim";
+    font-family: "gtw";
     margin: 0;
     padding: 0;
     padding-top: 30px;
@@ -26,7 +36,7 @@ body {
     position: absolute;
     top: 40px;
     width: 1084px;
-
+ 
     img {
         display: block;
         float: left;
@@ -35,7 +45,7 @@ body {
 }
 
 input#entertext {
-    font-family: "GT Walsheim";
+    font-family: "gtw";
     font-weight: 100;
     display: block;
     width: 100%;
