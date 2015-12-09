@@ -124,7 +124,7 @@ $(document).ready(function(){
 		}else{
 			$(".share").fadeIn();
 		}
-		$(".shareinput").val("http://type.leicht-luftig.de#"+encodeURI($(this).val()))
+		$(".shareinput").val("http://juliussohn.github.io/type-patterns/#"+encodeURI($(this).val()))
 	
 		
 		letters=$("#entertext").val().split("");
