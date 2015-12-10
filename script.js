@@ -115,7 +115,7 @@ $(document).ready(function(){
 
 	$("a.share").click(function(){
 		$(".shareinput").fadeIn().select();
-	})
+	});
 	
 	$("#entertext").keyup(function(e){
 		if($("#entertext").val()==""){
@@ -123,6 +123,7 @@ $(document).ready(function(){
 			$(".share, .shareinput").fadeOut();
 		}else{
 			$(".share").fadeIn();
+			
 		}
 		$(".shareinput").val("http://juliussohn.github.io/type-patterns/#"+encodeURI($(this).val()))
 	
